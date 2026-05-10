@@ -1,0 +1,36 @@
+// =====================================================
+// Custom Bootstrap variable overrides for the RSS site.
+// Override Bootstrap's defaults BEFORE @importing bootstrap.
+// =====================================================
+
+// Brand palette taken from the Figma design.
+$brand-black:    #000000;
+$brand-white:    #ffffff;
+$brand-gray:     #d9d9d9;   // navbar / footer divider
+$brand-light:    #f4f4f4;   // form fields
+$brand-yellow:   #ffd400;   // rating stars
+$brand-muted:    #b2a7a7;   // "Več..." muted text
+
+// Bootstrap theme color overrides
+$primary:   $brand-black;
+$secondary: $brand-gray;
+$light:     $brand-light;
+$dark:      $brand-black;
+$warning:   $brand-yellow;
+
+// Typography overrides — using the Figma's Marcellus / Marcellus SC pair
+$font-family-serif:    'Marcellus', serif;
+$font-family-display:  'Marcellus SC', serif;
+$font-family-sans-serif: 'Inria Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+$font-family-base:     $font-family-serif;
+$headings-font-family: $font-family-display;
+$headings-font-weight: 400;
+
+$body-color: $brand-black;
+$body-bg:    $brand-white;
+
+// Layout
+$navbar-padding-y:  0;
+$border-radius:     0;
+$btn-border-radius: 0;
+$input-border-radius: 0;
